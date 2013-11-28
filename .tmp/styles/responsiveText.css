@@ -1,49 +1,113 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\000033}}
 .title {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\000037}}
 .row {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\000039}}
-h1 {
-  font-size: 5vmin;
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000311}}
+  h1 {
+    font-size: 6vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000311}}
+  h1 {
+    font-size: 5vmin;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000312}}
-h2 {
-  font-size: 4vmin;
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000319}}
+  h2 {
+    font-size: 5vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000319}}
+  h2 {
+    font-size: 4vmin;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000315}}
-h3 {
-  font-size: 3.5vmin;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000318}}
-h4 {
-  font-size: 3vmin;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000321}}
-h5 {
-  font-size: 2.5vmin;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000324}}
-h6 {
-  font-size: 2vmin;
-}
-
+@media only screen and (min-width: 1280px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000327}}
-blockquote, p, strong, a, li {
-  font-size: 1.75vmin;
+  h3 {
+    font-size: 4.5vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000327}}
+  h3 {
+    font-size: 3.5vmin;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000330}}
-small {
-  font-size: 1vmin;
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000335}}
+  h4 {
+    font-size: 4vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000335}}
+  h4 {
+    font-size: 3vmin;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000343}}
+  h5 {
+    font-size: 3.5vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000343}}
+  h5 {
+    font-size: 2.5vmin;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000351}}
+  h6 {
+    font-size: 3vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000351}}
+  h6 {
+    font-size: 2vmin;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000359}}
+  blockquote, p, strong, a, li {
+    font-size: 2.75vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000359}}
+  blockquote, p, strong, a, li {
+    font-size: 1.75vmin;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000367}}
+  small {
+    font-size: 2vmin;
+  }
+}
+@media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/benmcgeachy\/Documents\/ResponsiveTypography\/app\/styles\/responsiveText\.scss}line{font-family:\0000367}}
+  small {
+    font-size: 1vmin;
+  }
 }
