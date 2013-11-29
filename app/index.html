@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="styles/responsiveText.css" />
   <script data-main="scripts/main" src="scripts/libs/require.js"></script>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="scripts/FlowTypeJS/flowtype.js"></script>
+
+
 </head>
 <body>
 
@@ -85,6 +89,12 @@
 
     </div>
   </div>
+
+  <script>
+  $(function(){
+      $('body').flowtype();
+  });
+  </script>
 
 </body>
 </html>

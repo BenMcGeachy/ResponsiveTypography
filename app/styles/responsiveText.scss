@@ -8,67 +8,45 @@
 	margin-bottom: 20px;
 }
 
+body {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+h1,h2,h3,h4,h5,h6,p, blockquote, a, strong, li, small {
+ font-family: inherit;
+ font-size: inherit;
+}
+
 h1 {
-	@media #{$medium} {
-		font-size: 6vmin;		
-	}
-	@media #{$large} {
-		font-size: 5vmin;		
-	}
+	font-size: 2em;
+	line-height: 1.5em;
 }
 h2 {
-	@media #{$medium} {
-		font-size: 5vmin;
-	}
-	@media #{$large} {
-		font-size: 4vmin;		
-	}
+	font-size: 1.8em;
+	line-height: 1.5em;
 }
 h3 {
-	@media #{$medium} {
-		font-size: 4.5vmin;
-	}
-	@media #{$large} {
-		font-size: 3.5vmin;		
-	}
+	font-size: 1.6em;
+	line-height: 1.5em;	
 }
 h4 {
-	@media #{$medium} {
-		font-size: 4vmin;
-	}
-	@media #{$large} {
-		font-size: 3vmin;		
-	}
+	font-size: 1.4em;
+	line-height: 1.5em;
 }
 h5 {
-	@media #{$medium} {
-		font-size: 3.5vmin;
-	}
-	@media #{$large} {
-		font-size: 2.5vmin;		
-	}
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 h6 {
-	@media #{$medium} {
-		font-size: 3vmin;
-	}
-	@media #{$large} {
-		font-size: 2vmin;		
-	}
+	font-size: 1em;
+	line-height: 1.5em;
 }
 blockquote, p, strong, a, li {
-	@media #{$medium} {
-		font-size: 2.75vmin;
-	}
-	@media #{$large} {
-		font-size: 1.75vmin;		
-	}
+	font-size: 0.8em;
+	line-height: 1.5em;
 }
 small {
-	@media #{$medium} {
-		font-size: 2vmin;
-	}
-	@media #{$large} {
-		font-size: 1vmin;		
-	}
+	font-size: 0.6em;
+	line-height: 1.5em;
 }
