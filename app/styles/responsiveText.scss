@@ -1,5 +1,10 @@
 @import "foundation/variables";
 
+
+body {
+	padding: 20px;
+}
+
 .title {
 	text-align: center;
 }
@@ -49,4 +54,8 @@ blockquote, p, strong, a, li {
 small {
 	font-size: 0.6em;
 	line-height: 1.5em;
+}
+
+ul {
+	list-style-position: inside;
 }
